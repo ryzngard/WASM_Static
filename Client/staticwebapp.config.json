@@ -1,5 +1,9 @@
 {
-    "navigationFallback": {
-        "rewrite": "/index.html"
-    }
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  },
+  "globalHeaders": {
+    "Cross-Origin-Embedder-Policy": "require-corp",
+    "Cross-Origin-Opener-Policy": "same-origin"
+  }
 }
